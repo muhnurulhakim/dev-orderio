@@ -1,0 +1,26 @@
+# the base hostname & protocol for your site, e.g. http://example.com
+url: ""
+
+# the subpath of your site, e.g. /blog
+baseurl: ""
+
+# the name of your site, e.g. ACME Corp.
+title: ""
+
+# Use the following plugins
+plugins:
+  - jekyll-postcss
+
+# PostCSS plugin configurations
+postcss:
+  cache: false
+
+# Exclude these files from your production _site
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
