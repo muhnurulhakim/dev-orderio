@@ -11,7 +11,7 @@ Open your terminal, follow these step :
 cd <directory_path>
 ```
 
-1. Install node_modules
+2. Install node_modules
 ```
 yarn install
 ```
@@ -26,12 +26,12 @@ Open your terminal, follow these step :
 cd <directory_path>
 ```
 
-1. Run local server
+2. Run local server
 ```
 bundle exec jekyll serve --livereload
 ```
 
-1. Open browser with url `localhost:4000`
+3. Open browser with url `localhost:4000`
 ```
 open -a "Google Chrome" "http://localhost:4000"
 ```
