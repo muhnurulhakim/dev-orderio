@@ -10,11 +10,13 @@
 	{% include meta.html %}
 
 	<!-- Preload -->
+	<link rel="preload" as="style" href="{{ '/assets/css/font.css' | relative_url }}{% if site.version %}?v={{ site.version }}{% endif %}" />
 	<link rel="preload" as="style" href="{{ '/assets/css/main.css' | relative_url }}{% if site.version %}?v={{ site.version }}{% endif %}" />
 	<link rel="preload" as="script" href="{{ '/assets/js/main.js' | relative_url }}{% if site.version %}?v={{ site.version }}{% endif %}" />
 
 	<!-- Main -->
-	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/font.css' | relative_url }}{% if site.version %}?v={{ site.version }}{% endif %}" />
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}{% if site.version %}?v={{ site.version }}{% endif %}" />
 </head>
 <body>
 

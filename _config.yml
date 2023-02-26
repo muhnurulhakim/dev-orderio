@@ -3,7 +3,7 @@
 #----------------------------
 
 # Base hostname & protocol for your site, e.g. https://example.com or https://example.github.io
-url: https://degiam.com
+url: 
 
 # Name of your site, e.g. ACME Corp.
 title: Corporate
@@ -55,6 +55,7 @@ exclude:
   - LICENSE
   - README.md
   - package.json
+  - package-lock.json
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
