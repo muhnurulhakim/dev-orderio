@@ -1,6 +1,12 @@
 ---
 ---
 
+/*!
+ * Orderio
+ * Designed by Degiam [https://degiam.github.io]
+ * Copyright (c) 2023
+ */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,7 +45,7 @@
 	body {
 		@apply font-theme-1 cursor-default text-black/80 dark:text-white transition-colors duration-100 break-words;
 		-webkit-print-color-adjust: exact;
-		color-adjust: exact;
+		print-color-adjust: exact;
 	}
 
 	a {
