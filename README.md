@@ -1,5 +1,6 @@
 # About
-This is plain template that combining Jekyll and TailwindCSS.
+
+This is template that combine Jekyll and TailwindCSS with some Jekyll plugins to optimize site.
 
 
 # Installation
@@ -34,6 +35,23 @@ bundle exec jekyll serve --livereload
 3. Open browser with url `localhost:4000`
 ```
 open -a "Google Chrome" "http://localhost:4000"
+```
+
+
+# Deployment
+
+You need to compile Sass + TailwindCSS on local server. Open your terminal, follow these step :
+
+1. Run local server, how to: [Running](#running)
+
+2. Copy compiled TailwindCSS and paste to assets directory
+```
+cp _site/tailwind.css assets/css/tailwind.css
+```
+
+3. Push to repository
+```
+git push origin main
 ```
 
 
