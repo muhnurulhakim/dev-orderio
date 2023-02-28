@@ -40,16 +40,14 @@ open -a "Google Chrome" "http://localhost:4000"
 
 # Deployment
 
-You need to compile Sass + TailwindCSS on local server. Open your terminal, follow these step :
+Open your terminal, follow these step :
 
-1. Run local server, how to: [Running](#running)
-
-2. Copy compiled TailwindCSS and paste to assets directory
+1. Copy compiled TailwindCSS and paste to assets directory
 ```
 cp _site/tailwind.css assets/css/tailwind.css
 ```
 
-3. Push to repository
+2. Push to repository
 ```
 git push origin main
 ```
